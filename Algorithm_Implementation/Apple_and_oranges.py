@@ -16,7 +16,7 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
     
     # optimized solution 
     
-    def countApplesAndOranges(s, t, a, b, apples, oranges):
+def countApplesAndOranges(s, t, a, b, apples, oranges):
     a_count = sum(s <= (a + apple) <= t for apple in apples)
     o_count = sum(s <= (b + orange) <= t for orange in oranges)
     
